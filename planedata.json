@@ -1,0 +1,28 @@
+[
+    {
+        "tic": "001",
+        "callsign": "N6701S",
+        "type": "B350",
+        "fixpair": "RBV,VCN",
+        "sp1": "VCN",
+        "pos": "1V",
+        "ade": "E",
+        "time": "00:02:32",
+        "ifr": "ifr",
+        "etgInstruction": "A090H195",
+        "time(sec)": "152"
+    },
+    {
+        "tic": "002",
+        "callsign": "N8502F",
+        "type": "C421",
+        "fixpair": "RBV,VCN",
+        "sp1": "VCN",
+        "pos": "1V",
+        "ade": "E",
+        "time": "00:07:15",
+        "ifr": "ifr",
+        "etgInstruction": "A090H195",
+        "time(sec)": "435"
+    }
+]
