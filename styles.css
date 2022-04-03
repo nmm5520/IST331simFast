@@ -1,3 +1,245 @@
-table.table1 {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap');
+
+* {
+    box-sizing: border-box;
 }
+
+body {
+    font-family: 'IBM+Plex+Sans+Arabic', sans-serif; 
+    margin: 0; 
+    display:grid;
+    place-content: center; 
+    min-height: 100vh; 
+    padding: 25px; 
+
+}
+.keyboard_wrapper{
+    width:670px;
+    border-radius: 15px; 
+    padding:25px; 
+}
+.keyboard_wrapper .key{
+    border: 1px solid green;
+}
+.keyboard_wrapper .key .row{
+    text-transform: uppercase;
+    font-weight: 500; 
+    font-size: small; 
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+    gap: 10px;   
+}
+.keyboard_wrapper .key .row span{
+    border: 1px solid grey; 
+    width: 50px; 
+    height: 50px; 
+    display: grid; 
+    place-content: center;  
+    box-shadow: 
+        0px 2px 3px rgba(0,0,0.5),
+        inset 0px 0px rgba(154,147,113,0.95);    
+}
+.keyboard_wrapper .key .row span.space{
+    width: calc(50px * 7.8);
+    background-color: yellow; 
+}
+.keyboard_wrapper .key .row span.enter{
+    width: calc(25px * 2.8); 
+    background-color: red;
+}
+.keyboard_wrapper .key .row span.M1{
+    background-color: green;
+    color: grey; 
+}
+.keyboard_wrapper .key .row span.M2{
+    background-color: green;
+    color: grey; 
+}
+.keyboard_wrapper .key .row span.M3{
+    background-color: green;
+    color: grey; 
+}
+.keyboard_wrapper .key .row span.M4{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.CON{
+    background-color: white;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.MAP{
+    background-color: white;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.M5{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.M6{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.M7{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.M8{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.M9{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.M10{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.M11{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.M12{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.TRK{
+    background-color: white;
+    color: grey; 
+}
+.keyboard_wrapper .key .row span.USR{
+    background-color: white; 
+    color: grey;
+}
+.keyboard_wrapper .key .row span.M13{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.M14{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.M15{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.M16{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.CLR{
+    background-color: yellow;
+}
+.keyboard_wrapper .key .row span.BKSP{
+    background-color: yellow; 
+}
+.keyboard_wrapper .key .row span.zero{
+    background-color: skyblue; 
+}
+.keyboard_wrapper .key .row span.one{
+    background-color: skyblue; 
+}
+.keyboard_wrapper .key .row span.two{
+    background-color: skyblue; 
+}
+.keyboard_wrapper .key .row span.three{
+    background-color: skyblue; 
+}
+.keyboard_wrapper .key .row span.four{
+    background-color: skyblue; 
+}
+.keyboard_wrapper .key .row span.five{
+    background-color: skyblue; 
+}
+.keyboard_wrapper .key .row span.six{
+    background-color: skyblue; 
+}
+.keyboard_wrapper .key .row span.seven{
+    background-color: skyblue; 
+}
+.keyboard_wrapper .key .row span.eight{
+    background-color: skyblue; 
+}
+.keyboard_wrapper .key .row span.nine{
+    background-color: skyblue; 
+}
+.keyboard_wrapper .key .row span.IFRplus{
+    background-color: yellow;
+}
+.keyboard_wrapper .key .row span.triangle{
+    background-color: yellow;
+}
+.keyboard_wrapper .key .row span.period{
+    background-color: yellow ;
+}
+.keyboard_wrapper .key .row span.VFRslash{
+    background-color: yellow;
+}
+.keyboard_wrapper .key .row span.INITCTRL{
+    background-color: green;
+}
+.keyboard_wrapper .key .row span.TRKRPOS{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.TRKSUSP{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.TERMCTRL{
+    background-color: green;
+}
+.keyboard_wrapper .key .row span.HNDOFF{
+    background-color: green;
+}
+.keyboard_wrapper .key .row span.FLTDATA{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.MULTIFUNC{
+    background-color: green;
+}
+.keyboard_wrapper .key .row span.F8{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.F9{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.F10{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.CA{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.F12{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.F13{
+    background-color: green;
+}
+.keyboard_wrapper .key .row span.F14{
+    background-color: green;
+    color: grey;
+}
+.keyboard_wrapper .key .row span.TGTGEN{
+    background-color: green;
+}
+.keyboard_wrapper .key .row span.F16{
+    background-color: green;
+    color: grey;
+}
+
+
+
+
+
+
