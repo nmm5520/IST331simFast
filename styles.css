@@ -9,7 +9,8 @@ body {
     margin: 0; 
     display:grid;
     place-content: center; 
-    min-height: 100vh; 
+    min-height: 50px;
+    max-height: 50px; 
     padding: 25px; 
 
 }
@@ -44,11 +45,11 @@ body {
         inset 0px 0px rgba(154,147,113,0.95);    
 }
 .keyboard_wrapper .key .row span.space{
-    width: calc(50px * 7.8);
+    width: calc(41px * 7.8);
     background-color: yellow; 
 }
 .keyboard_wrapper .key .row span.enter{
-    width: calc(25px * 2.8); 
+    width: calc(50px * 2.8); 
     background-color: red;
 }
 .keyboard_wrapper .key .row span.M1{
