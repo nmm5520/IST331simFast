@@ -238,6 +238,11 @@ body {
     background-color: green;
     color: grey;
 }
+.scopebox{
+    background-color:rgb(1, 31, 1); 
+    padding: 10px; 
+    border: 1px solid rgb(1, 31, 1)
+}
 
 
 
